@@ -1,8 +1,10 @@
-user_0 = {
-    'username':'justino',
-    'firstname': 'Justin',
-    'lastname': 'Onstot',}
+fav_langs = {
+    'jenn':'python',
+    'nick': 'python',
+    'adam': 'haskel',
+    'steve': 'c#',
+    'bill': 'R'}
 
-for key, value in user_0.items():
+for key, value in fav_langs.items():
     print("\nThe key is: " + key)
     print('The value is: ' + value)
