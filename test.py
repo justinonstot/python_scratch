@@ -8,3 +8,6 @@ fav_langs = {
 for key, value in fav_langs.items():
     print("\nThe key is: " + key)
     print('The value is: ' + value)
+
+for name in sorted(fav_langs.keys()):
+    print(name.title() + " thank you for answering")
